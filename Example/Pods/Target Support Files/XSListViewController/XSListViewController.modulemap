@@ -1,0 +1,6 @@
+framework module XSListViewController {
+  umbrella header "XSListViewController-umbrella.h"
+
+  export *
+  module * { export * }
+}

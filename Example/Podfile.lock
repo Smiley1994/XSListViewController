@@ -1,0 +1,58 @@
+PODS:
+  - Alamofire (5.8.1)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - iOSSnapshotTestCase (8.0.0):
+    - iOSSnapshotTestCase/SwiftSupport (= 8.0.0)
+  - iOSSnapshotTestCase/Core (8.0.0)
+  - iOSSnapshotTestCase/SwiftSupport (8.0.0):
+    - iOSSnapshotTestCase/Core
+  - Nimble (10.0.0)
+  - Nimble-Snapshots (9.4.0):
+    - Nimble-Snapshots/Core (= 9.4.0)
+  - Nimble-Snapshots/Core (9.4.0):
+    - iOSSnapshotTestCase (~> 8.0)
+    - Nimble
+  - Quick (2.2.1)
+  - SnapKit (5.6.0)
+  - XSListViewController (0.1.0):
+    - Alamofire
+    - SnapKit
+
+DEPENDENCIES:
+  - FBSnapshotTestCase (~> 2.1.4)
+  - Nimble (~> 10.0.0)
+  - Nimble-Snapshots (~> 9.4.0)
+  - Quick (~> 2.2.0)
+  - XSListViewController (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - FBSnapshotTestCase
+    - iOSSnapshotTestCase
+    - Nimble
+    - Nimble-Snapshots
+    - Quick
+    - SnapKit
+
+EXTERNAL SOURCES:
+  XSListViewController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Alamofire: 3ca42e259043ee0dc5c0cdd76c4bc568b8e42af7
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  iOSSnapshotTestCase: a670511f9ee3829c2b9c23e6e68f315fd7b6790f
+  Nimble: 5316ef81a170ce87baf72dd961f22f89a602ff84
+  Nimble-Snapshots: ef281b908c604f78c8313587e25ea92c8ab513d7
+  Quick: f5754d69b7013f5864c29aab9ae6f0c79c5bc200
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+  XSListViewController: e3e96a4f6182eef2b55aaf307180fdce594737ca
+
+PODFILE CHECKSUM: 344c282fbeaedb4aa152f2bce64e24950b014087
+
+COCOAPODS: 1.14.2

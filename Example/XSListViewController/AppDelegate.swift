@@ -16,7 +16,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        self.createWindow()
+        
         return true
+    }
+    
+    func createWindow () {
+        let viewController = XSTestListViewController(viewModel: XSTestListViewModel())
+        let navigationViewController = UINavigationController(rootViewController: viewController)
+        window = UIWindow()
+        window?.rootViewController = navigationViewController
+        window?.backgroundColor = UIColor.white
+        window?.makeKeyAndVisible()
     }
 
     func applicationWillResignActive(_ application: UIApplication) {

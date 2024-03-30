@@ -9,11 +9,13 @@
 /* Begin PBXBuildFile section */
 		0E070CE32C27100B5A2559F5 /* Pods_XSListViewController_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B96F83E387D16982D376BB09 /* Pods_XSListViewController_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
-		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
-		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
+		607FACD81AFB9204008FA782 /* XSTestListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* XSTestListViewController.swift */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
-		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		7151A3662BB7B3D600A5702F /* XSTestListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7151A3642BB7B3D600A5702F /* XSTestListViewModel.swift */; };
+		7151A3672BB7B3D600A5702F /* XSTestListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7151A3652BB7B3D600A5702F /* XSTestListTableViewCell.swift */; };
+		7151A3692BB7E16E00A5702F /* XSTest1ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7151A3682BB7E16E00A5702F /* XSTest1ListTableViewCell.swift */; };
+		7151A36B2BB7E92500A5702F /* XSTest2ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7151A36A2BB7E92500A5702F /* XSTest2ListTableViewCell.swift */; };
 		B239C695F41BDB7C257F125C /* Pods_XSListViewController_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CA268E736B024FCF088323E /* Pods_XSListViewController_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -30,20 +32,22 @@
 /* Begin PBXFileReference section */
 		143AB4EBEDA1E8C997F80F11 /* Pods-XSListViewController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XSListViewController_Example.release.xcconfig"; path = "Target Support Files/Pods-XSListViewController_Example/Pods-XSListViewController_Example.release.xcconfig"; sourceTree = "<group>"; };
 		5CA268E736B024FCF088323E /* Pods_XSListViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XSListViewController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5FFCE2B934C9CDFD424EEE7D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		5FFCE2B934C9CDFD424EEE7D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* XSListViewController_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XSListViewController_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		607FACD71AFB9204008FA782 /* XSTestListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XSTestListViewController.swift; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* XSListViewController_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XSListViewController_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		7151A3642BB7B3D600A5702F /* XSTestListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XSTestListViewModel.swift; sourceTree = "<group>"; };
+		7151A3652BB7B3D600A5702F /* XSTestListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XSTestListTableViewCell.swift; sourceTree = "<group>"; };
+		7151A3682BB7E16E00A5702F /* XSTest1ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XSTest1ListTableViewCell.swift; sourceTree = "<group>"; };
+		7151A36A2BB7E92500A5702F /* XSTest2ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XSTest2ListTableViewCell.swift; sourceTree = "<group>"; };
 		7B541073DF3558DCE030F032 /* Pods-XSListViewController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XSListViewController_Tests.debug.xcconfig"; path = "Target Support Files/Pods-XSListViewController_Tests/Pods-XSListViewController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		83D48925BB5AE3895F696A84 /* XSListViewController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = XSListViewController.podspec; path = ../XSListViewController.podspec; sourceTree = "<group>"; };
-		909061684CFA68BA891B1263 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		83D48925BB5AE3895F696A84 /* XSListViewController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XSListViewController.podspec; path = ../XSListViewController.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		909061684CFA68BA891B1263 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		9BF504715EA0A0D25C53C1B5 /* Pods-XSListViewController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XSListViewController_Example.debug.xcconfig"; path = "Target Support Files/Pods-XSListViewController_Example/Pods-XSListViewController_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		ADF27114FB2FB7CF788CBFD8 /* Pods-XSListViewController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XSListViewController_Tests.release.xcconfig"; path = "Target Support Files/Pods-XSListViewController_Tests/Pods-XSListViewController_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B96F83E387D16982D376BB09 /* Pods_XSListViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XSListViewController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -94,10 +98,12 @@
 			isa = PBXGroup;
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
-				607FACD71AFB9204008FA782 /* ViewController.swift */,
-				607FACD91AFB9204008FA782 /* Main.storyboard */,
+				607FACD71AFB9204008FA782 /* XSTestListViewController.swift */,
+				7151A3652BB7B3D600A5702F /* XSTestListTableViewCell.swift */,
+				7151A3682BB7E16E00A5702F /* XSTest1ListTableViewCell.swift */,
+				7151A36A2BB7E92500A5702F /* XSTest2ListTableViewCell.swift */,
+				7151A3642BB7B3D600A5702F /* XSTestListViewModel.swift */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
-				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 			);
 			name = "Example for XSListViewController";
@@ -147,7 +153,6 @@
 				7B541073DF3558DCE030F032 /* Pods-XSListViewController_Tests.debug.xcconfig */,
 				ADF27114FB2FB7CF788CBFD8 /* Pods-XSListViewController_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -228,6 +233,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -247,8 +253,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
-				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,10 +274,14 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-XSListViewController_Example/Pods-XSListViewController_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 				"${BUILT_PRODUCTS_DIR}/XSListViewController/XSListViewController.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XSListViewController.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -357,8 +365,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				607FACD81AFB9204008FA782 /* XSTestListViewController.swift in Sources */,
+				7151A36B2BB7E92500A5702F /* XSTest2ListTableViewCell.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				7151A3692BB7E16E00A5702F /* XSTest1ListTableViewCell.swift in Sources */,
+				7151A3672BB7B3D600A5702F /* XSTestListTableViewCell.swift in Sources */,
+				7151A3662BB7B3D600A5702F /* XSTestListViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,25 +391,6 @@
 			targetProxy = 607FACE61AFB9204008FA782 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		607FACD91AFB9204008FA782 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				607FACDA1AFB9204008FA782 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		607FACDE1AFB9204008FA782 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				607FACDF1AFB9204008FA782 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		607FACED1AFB9204008FA782 /* Debug */ = {
@@ -505,6 +498,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = XSListViewController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -520,6 +514,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = XSListViewController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -542,6 +537,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -560,6 +556,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";

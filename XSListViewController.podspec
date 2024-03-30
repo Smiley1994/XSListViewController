@@ -21,14 +21,14 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/sunnnnn/XSListViewController'
+  s.homepage         = 'https://github.com/Smiley1994/XSListViewController.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'sunnnnn' => 'smileysun1994@gmail.com' }
-  s.source           = { :git => 'https://github.com/sunnnnn/XSListViewController.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/Smiley1994/XSListViewController.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '13.0'
 
   s.source_files = 'XSListViewController/Classes/**/*'
   
@@ -39,4 +39,7 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'Alamofire'
+  s.dependency 'SnapKit'
+  
 end
